@@ -18,7 +18,13 @@ export class DrivenFormComponent implements OnInit {
 
   onSubmitted() { this.submitted = true };
 
+  newHero() {
+    this.model = new ObjHero(42, '', '');
+  }
+
   ngOnInit(): void {
   }
+
+
 
 }
