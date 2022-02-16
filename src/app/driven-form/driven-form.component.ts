@@ -16,7 +16,10 @@ export class DrivenFormComponent implements OnInit {
 
   submitted = false;
 
-  onSubmitted() { this.submitted = true };
+  onSubmit() { 
+    this.submitted = true;
+    // console.log("submitted:" + this.submitted);
+    };
 
   newHero() {
     this.model = new ObjHero(42, '', '');
