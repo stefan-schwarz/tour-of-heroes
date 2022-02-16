@@ -1,8 +1,10 @@
+<!-- <input ... class="form-control ng-untouched ng-pristine ng-valid" ...> -->
+
 <h1>Hero Form</h1>
 {{ model | json }}
 <div class="form-group">
   <label for="name">Name</label>
-  <input type="text" class="form-control" id="name"  
+  <input type="text" class="form-control ng-untouched ng-pristine ng-valid" id="name"  
     required
     [(ngModel)]="model.name" name="name" />
 </div>
@@ -11,7 +13,7 @@
   <label for="alterEgo">Alter Ego</label>
   <input type="text" class="form-control" id="alterEgo"  
     required
-    [(ngModel)]="model.alterEgo"   name="alterEgo" />
+    [(ngModel)]="model.alterEgo" name="alterEgo" />
 </div>
 
 <div class="form-group">
@@ -22,3 +24,6 @@
     <option *ngFor="let pow of powers" [value]="pow">{{ pow }}</option>
   </select>
 </div>
+
+
+#
