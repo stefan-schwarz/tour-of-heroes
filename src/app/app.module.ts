@@ -14,6 +14,8 @@ import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './in-memory-data.service';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { DrivenFormComponent } from './driven-form/driven-form.component';
+import { HighlightDirective } from './highlight.directive';
+import { DirectivesComponent } from './directives/directives.component';
 
 
 @NgModule({
@@ -24,7 +26,9 @@ import { DrivenFormComponent } from './driven-form/driven-form.component';
     MessagesComponent,
     DashboardComponent,
     HeroSearchComponent,
-    DrivenFormComponent
+    DrivenFormComponent,
+    HighlightDirective,
+    DirectivesComponent
   ],
   imports: [
     BrowserModule,
