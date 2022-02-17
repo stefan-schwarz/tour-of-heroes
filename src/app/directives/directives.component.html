@@ -1,2 +1,12 @@
+<h2>My First Attribut Directive</h2>
+
+<h3>Pick a highlight color</h3>
+<div>
+  <input type="radio" name="colors" (click)="color='lightgreen'">Green
+  <input type="radio" name="colors" (click)="color='yellow'">Yellow
+  <input type="radio" name="colors" (click)="color='cyan'">Cyan
+</div>
+
+
 <p [appHighlight]="color">directives works!</p>
-<p>test 2</p>
+<p>{{ color }}</p>
