@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./struc-directive.component.css']
 })
 export class StrucDirectiveComponent implements OnInit {
+  condition = false;
 
   constructor() { }
 
