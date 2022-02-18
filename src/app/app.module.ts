@@ -19,6 +19,8 @@ import { DirectivesComponent } from './directives/directives.component';
 import { StrucDirectiveComponent } from './struc-directive/struc-directive.component';
 import { UnlessDirective } from './unless.directive';
 import { DynamicComponent } from './dynamic/dynamic.component';
+import { AdHostDirective } from './dynamic/ad-host.directive';
+import { AdBannerComponent } from './dynamic/ad-banner/ad-banner.component';
 
 
 @NgModule({
@@ -34,7 +36,9 @@ import { DynamicComponent } from './dynamic/dynamic.component';
     DirectivesComponent,
     StrucDirectiveComponent,
     UnlessDirective,
-    DynamicComponent
+    DynamicComponent,
+    AdHostDirective,
+    AdBannerComponent
   ],
   imports: [
     BrowserModule,
