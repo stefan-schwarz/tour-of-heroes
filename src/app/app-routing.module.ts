@@ -6,6 +6,7 @@ import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { DrivenFormComponent } from './driven-form/driven-form.component';
 import { DirectivesComponent } from './directives/directives.component';
 import { StrucDirectiveComponent } from './struc-directive/struc-directive.component';
+import { DynamicComponent } from './dynamic/dynamic.component';
 
 
 const routes: Routes = [
@@ -15,7 +16,8 @@ const routes: Routes = [
   { path: 'detail/:id', component: HeroDetailComponent},
   { path: 'form', component: DrivenFormComponent},
   { path: 'directives', component: DirectivesComponent},
-  { path: 'struc-directive', component: StrucDirectiveComponent}
+  { path: 'struc-directive', component: StrucDirectiveComponent},
+  { path: 'dynamic', component: DynamicComponent}
 ];
 
 @NgModule({

@@ -18,6 +18,7 @@ import { HighlightDirective } from './highlight.directive';
 import { DirectivesComponent } from './directives/directives.component';
 import { StrucDirectiveComponent } from './struc-directive/struc-directive.component';
 import { UnlessDirective } from './unless.directive';
+import { DynamicComponent } from './dynamic/dynamic.component';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { UnlessDirective } from './unless.directive';
     HighlightDirective,
     DirectivesComponent,
     StrucDirectiveComponent,
-    UnlessDirective
+    UnlessDirective,
+    DynamicComponent
   ],
   imports: [
     BrowserModule,
