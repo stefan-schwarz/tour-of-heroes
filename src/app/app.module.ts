@@ -16,6 +16,7 @@ import { HeroSearchComponent } from './hero-search/hero-search.component';
 import { DrivenFormComponent } from './driven-form/driven-form.component';
 import { HighlightDirective } from './highlight.directive';
 import { DirectivesComponent } from './directives/directives.component';
+import { StrucDirectiveComponent } from './struc-directive/struc-directive.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { DirectivesComponent } from './directives/directives.component';
     HeroSearchComponent,
     DrivenFormComponent,
     HighlightDirective,
-    DirectivesComponent
+    DirectivesComponent,
+    StrucDirectiveComponent
   ],
   imports: [
     BrowserModule,
