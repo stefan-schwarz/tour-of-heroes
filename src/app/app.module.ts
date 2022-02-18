@@ -17,6 +17,7 @@ import { DrivenFormComponent } from './driven-form/driven-form.component';
 import { HighlightDirective } from './highlight.directive';
 import { DirectivesComponent } from './directives/directives.component';
 import { StrucDirectiveComponent } from './struc-directive/struc-directive.component';
+import { UnlessDirective } from './unless.directive';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { StrucDirectiveComponent } from './struc-directive/struc-directive.compo
     DrivenFormComponent,
     HighlightDirective,
     DirectivesComponent,
-    StrucDirectiveComponent
+    StrucDirectiveComponent,
+    UnlessDirective
   ],
   imports: [
     BrowserModule,
