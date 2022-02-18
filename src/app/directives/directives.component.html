@@ -7,6 +7,13 @@
   <input type="radio" name="colors" (click)="color='cyan'">Cyan
 </div>
 
-
-<p [appHighlight]="color">directives works!</p>
+<p [appHighlight]="color" defaultColor="violet">directives works!</p>
 <p>{{ color }}</p>
+
+<p>Use ngNonBindable to stop evaluation.</p>
+<p ngNonBindable>This should not evaluate: {{ 1 + 1 }}</p>
+<p>This should be evaluate: {{ 1 + 1 }}</p>
+
+<h3>ngNonBindable with a directive</h3>
+<div ngNonBindable [appHighlight]="'yellow'">This should not evaluate: {{ 1 +1 }}, but will highlight yellow.
+</div>
